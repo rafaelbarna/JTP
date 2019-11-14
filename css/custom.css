@@ -2,7 +2,7 @@ header a.logo img {
     max-height: 100px;
 }
 
-.logo img{
+.logo img {
     padding: 15px 0;
 }
 
@@ -30,16 +30,12 @@ header a.logo img {
     color: #fedd04;
 }
 
-.text-secondary{
-    color: #c9a400;
-}
-
 a:hover, a:active {
     color: #fedd04;
     text-decoration: none;
 }
 
-.feature-box-16 .feature-box-content {    
+.feature-box-16 .feature-box-content {
     height: 100px;
 }
 
@@ -48,5 +44,13 @@ a:hover, a:active {
     height: 350px;
 }
 
-.btn.btn-yellow {background:#fedd04; color: #000}
-.btn.btn-yellow:hover, .btn.btn-yellow:focus {background: #c9a400; color: #000}
+.btn.btn-yellow {
+    background: #fedd04;
+    color: #000
+}
+
+.btn.btn-yellow:hover, .btn.btn-yellow:focus { background: #c9a400; color: #000 }
+
+.border-header { border-radius: 40% 50% 50% 50% / 50% 0% 0% 0%; }
+
+.text-secondary { color: #c9a400; }
