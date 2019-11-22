@@ -20,7 +20,7 @@ header a.logo img { max-height: 100px; }
 
 .text-dark-blue { color: #000042; }
 
-a:hover, a:active { color: #fedd04; text-decoration: none; }
+.custom-a:hover, .custom-a:active { color: #000 }
 
 .feature-box-16 .feature-box-content { height: 100px; }
 
@@ -38,3 +38,4 @@ a:hover, a:active { color: #fedd04; text-decoration: none; }
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
+
