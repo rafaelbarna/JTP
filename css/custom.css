@@ -35,3 +35,6 @@ a:hover, a:active { color: #fedd04; text-decoration: none; }
 .text-secondary { color: #c9a400; }
 
 .text-25px{ font-size: 25px; }
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }

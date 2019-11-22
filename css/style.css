@@ -3143,7 +3143,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 
 /* list style 6 */
 .list-style-6 {list-style: none; margin: 0; padding: 0;}
-.list-style-6 li {position: relative; padding: 0 15px 8px 0; margin: 0 0 8px 0; border-bottom: 1px solid rgba(0, 0, 0, 0.1);}
+.list-style-6 li {position: relative; padding: 0 15px 8px 0; margin: 0 0 8px 0;}
 .list-style-6 li span { position: absolute; top: 3px; right: 0;}
 .list-style-6 li:last-child {border-bottom: none}
 .list-style-6 li:before {content: "";}
