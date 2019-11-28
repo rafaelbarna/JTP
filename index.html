@@ -47,17 +47,19 @@
     <!-- custom -->
     <link rel="stylesheet" href="css/custom.css" />
     <!-- line awesome -->
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <!--[if IE]>
         <script src="js/html5shiv.js"></script>
     <![endif]-->
 </head>
 
 <body>
-    <!-- start header -->
+    <!-- HEADER -->
     <header>
         <!-- start navigation -->
-        <nav class="navbar navbar-default bootsnav navbar-fixed-top header-light bg-transparent white-link">
+        <nav class="navbar navbar-default bootsnav navbar-fixed-top nav-box-width">
+            <!-- class="navbar navbar-default bootsnav background-white header-light navbar-scroll-top navbar-expand-lg nav-box-width on no-full"> -->
             <div class="container nav-header-container">
                 <div class="row">
                     <!-- start logo -->
@@ -65,9 +67,10 @@
                         <a href="index.html" title="JTP" class="logo"><img src="img/logo-jtp.png"
                                 data-rjs="img/logo@2x.png" class="logo-dark" alt="JTP"><img src="img/logo-jtp.png"
                                 data-rjs="img/logo-white@2x.png" alt="JTP" class="logo-light default"></a>
+                        <a class="text-secondary font-weight-600" href="javascript:void(0);">GRUPO JTP</a>
                     </div>
                     <!-- end logo -->
-                    <div class="col-md-6 col-xs-2 width-auto pull-right accordion-menu xs-no-padding-right">
+                    <div class="col-md-6 col-xs-2 width-auto pull-right accordion-menu">
                         <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse"
                             data-target="#navbar-collapse-toggle-1">
                             <span class="sr-only">toggle navigation</span>
@@ -81,12 +84,7 @@
 
                                 <!-- start menu item -->
                                 <li class="">
-                                    <a href="javascript:void(0);">Home</a>
-                                </li>
-                                <!-- end menu item -->
-                                <!-- start menu item -->
-                                <li class="">
-                                    <a href="#portfolio">Portfólio</a>
+                                    <a href="#quemsomos">Conheça o grupo JTP</a>
                                 </li>
                                 <!-- end menu item -->
                                 <!-- start menu item -->
@@ -96,7 +94,12 @@
                                 <!-- end menu item -->
                                 <!-- start menu item -->
                                 <li class="">
-                                    <a href="quem-somos.html">Quem somos</a>
+                                    <a href="#portfolio">Portfólio</a>
+                                </li>
+                                <!-- end menu item -->
+                                <!-- start menu item -->
+                                <li class="">
+                                    <a href="#atendimento">Atendimento</a>
                                 </li>
                                 <!-- end menu item -->
                                 <!-- start menu item -->
@@ -106,16 +109,10 @@
                                 <!-- end menu item -->
                                 <!-- start menu item -->
                                 <li class="">
-                                    <a href="contato.html">Contato</a>
+                                    <a href="http://portal.jtptransportes.com.br/">Portal</a>
                                 </li>
                                 <!-- end menu item -->
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-xs-5 width-auto">
-                        <div class="d-none d-md-inline-block alt-font bg-primary-opacity border-radius-5 padding-10px-all icon-social-very-small">
-                            <i class="la la-sign-in la-2x text-black" style="vertical-align: middle;"></i>
-                            <a href="http://portal.jtptransportes.com.br/" title="Portal" target="_blank" class="custom-a text-black font-weight-600 alt-font">PORTAL</a>
                         </div>
                     </div>
                 </div>
@@ -123,8 +120,9 @@
         </nav>
         <!-- end navigation -->
     </header>
-    <!-- end header -->
-    <!-- start parallax hero section -->
+    <!-- HEADER -->
+
+    <!-- BG HEAD -->
     <section class="wow fadeIn no-padding parallax xs-background-image-center" data-stellar-background-ratio="0.5"
         style="background-image: url('img/bg1.jpg')">
         <div class="opacity-extra-medium bg-black"></div>
@@ -140,7 +138,7 @@
                                 class="text-large font-weight-300 text-white width-75 md-width-85 sm-width-95 xs-width-100 xs-display-none">
                                 Prestação de serviços de alta qualidade na esfera pública. Há mais de 10 anos no mercado
                                 com crescimento acelerado.</p>
-                            <a href="#sobre" target="_blank"
+                            <a href="#que" target="_blank"
                                 class="btn btn-medium btn-white margin-40px-top text-link-deep-pink xs-margin-10px-top">Saiba
                                 mais</a>
                         </div>
@@ -149,506 +147,202 @@
             </div>
         </div>
     </section>
-    <!-- end parallax hero section -->
-    <!-- start about section -->
-    <section class="wow fadeIn" id="sobre">
+    <!-- BG HEAD -->
+
+    <!-- QUEM SOMOS-->
+    <section class="wow fadeIn" id="quemsomos">
         <div class="container">
             <div class="row">
                 <div
-                    class="col-md-8 col-sm-11 col-xs-12 center-col text-center margin-six-bottom xs-margin-30px-bottom">
-                    <div class="alt-font text-medium-gray margin-5px-bottom text-uppercase text-small">Quem somos</div>
-                    <h6 class="font-weight-300 text-extra-dark-gray no-margin"> Lorem, ipsum dolor sit amet consectetur
-                        adipisicing elit. <strong class="font-weight-400">Porro, animi? </strong> Quia sed voluptas
-                        magni explicabo. Qui quos nemo, repellat pariatur incidunt excepturi quam.<strong
-                            class="font-weight-400">optio dolorem sint voluptatum,</strong> dolorum natus vitae.</h6>
+                    class="col-lg-8 col-md-8 col-sm-8 col-xs-12 center-col margin-eight-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center">
+                    <h5 class="alt-font margin-25px-bottom text-uppercase text-dark-blue">Quem somos</h5>
+                    <p class="text-uppercase alt-font margin-20px-bottom font-weight-700 sm-width-100 xs-width-100">
+                        Há mais de 14 anos mudando o conceito de serviço público no país. Somos
+                        referência quando o
+                        assunto é prestação de serviço no setor de transporte de passageiros.</p>
                 </div>
             </div>
             <div class="row">
                 <!-- start feature box item -->
-                <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-five-bottom last-paragraph-no-margin wow fadeInUp">
-                    <div class="feature-box">
-                        <div class="content">
-                            <i
-                                class="icon-browser text-dark-blue text-medium-gray icon-large margin-25px-bottom sm-margin-15px-bottom"></i>
-                            <div
-                                class="text-medium alt-font text-capitalize text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom">
-                                Missão</div>
-                            <p class="width-85 margin-lr-auto sm-width-100">Disponibilizar os melhores serviços do
-                                mercado garantindo qualidade excelente e quebrando paradigmas para a construção de um
-                                país com novos padrões de atendimento à população.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- end feature box item -->
-                <!-- start feature box item -->
-                <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-five-bottom last-paragraph-no-margin wow fadeInUp">
-                    <div class="feature-box">
-                        <div class="content">
-                            <i
-                                class="icon-book-open text-dark-blue text-medium-gray icon-large margin-25px-bottom sm-margin-15px-bottom"></i>
-                            <div
-                                class="text-medium alt-font text-capitalize text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom">
-                                Visão</div>
-                            <p class="width-85 margin-lr-auto sm-width-100">Ser uma das 5 maiores empresas de prestação
-                                de serviços do Brasil no setor de transporte de passageiros.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- end feature box item -->
-                <!-- start feature box item -->
-                <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-five-bottom last-paragraph-no-margin wow fadeInUp">
-                    <div class="feature-box">
-                        <div class="content">
-                            <i
-                                class="icon-wallet text-dark-blue text-medium-gray icon-large margin-25px-bottom sm-margin-15px-bottom"></i>
-                            <div
-                                class="text-medium alt-font text-capitalize text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom">
-                                Valores</div>
-                            <p class="width-85 margin-lr-auto sm-width-100">Acreditamos que nossa principal
-                                responsabilidade é com a população, que paga seus impostos com trabalho duro e dedicação
-                                e merece receber em troca serviços de qualidade excelente.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- end feature box item -->
-            </div>
-        </div>
-    </section>
-    <!-- end about section -->
-    <!-- start parallax with feature box section -->
-    <section class="parallax one-second-screen parallax-feature-box sm-height-auto" data-stellar-background-ratio="0.3"
-        style="background-image:url('img/bg2.jpg');">
-        <div class="opacity-medium bg-extra-dark-gray"></div>
-        <div class="container position-relative">
-            <div class="row">
                 <div
-                    class="col-lg-6 col-md-8 col-sm-8 text-center center-col sm-margin-60px-bottom xs-margin-40px-bottom">
-                    <i
-                        class="icon-target icon-extra-medium text-white margin-25px-bottom margin-60px-top sm-margin-15px-bottom"></i>
-                    <h4 class="alt-font text-white">Lorem ipsum dolor sit amet consectetur </h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="parallax-feature-box-bottom z-index-5 wow fadeInUp">
-                    <!-- start features box item -->
-                    <div class="col-md-3 col-sm-6 col-xs-12 sm-margin-four-bottom xs-margin-eight-bottom wow fadeInUp">
-                        <div
-                            class="bg-white box-shadow-light text-center padding-twelve-all position-relative xs-padding-five-all">
-                            <i
-                                class="icon-ribbon icon-extra-medium text-primary margin-25px-bottom margin-25px-top sm-margin-15px-bottom"></i>
-                            <div
-                                class="alt-font text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom font-weight-600">
-                                Qualidade</div>
-                            <p>Prestação de serviços de alta qualidade na esfera pública.</p>
-                        </div>
-                    </div>
-                    <!-- end feature box item -->
-                    <!-- start features box item -->
-                    <div class="col-md-3 col-sm-6 col-xs-12 sm-margin-four-bottom xs-margin-eight-bottom wow fadeInUp"
-                        data-wow-delay="0.2s">
-                        <div
-                            class="bg-white box-shadow-light text-center padding-twelve-all position-relative xs-padding-five-all">
-                            <i
-                                class="icon-hourglass icon-extra-medium text-primary margin-25px-bottom margin-25px-top sm-margin-15px-bottom"></i>
-                            <div
-                                class="alt-font text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom font-weight-600">
-                                Experiência</div>
-                            <p>Há mais de 10 anos no mercado com crescimento acelerado.</p>
-                        </div>
-                    </div>
-                    <!-- end feature box item -->
-                    <!-- start features box item -->
-                    <div class="col-md-3 col-sm-6 col-xs-12 xs-margin-eight-bottom wow fadeInUp" data-wow-delay="0.4s">
-                        <div
-                            class="bg-white box-shadow-light text-center padding-twelve-all position-relative xs-padding-five-all">
-                            <i
-                                class="icon-bargraph icon-extra-medium text-primary margin-25px-bottom margin-25px-top sm-margin-15px-bottom"></i>
-                            <div
-                                class="alt-font text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom font-weight-600">
-                                Gestão</div>
-                            <p>Administração competente formada por profissionais com formação acadêmica diferenciada.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- end feature box item -->
-                    <!-- start features box item -->
-                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
-                        <div
-                            class="bg-white box-shadow-light text-center padding-twelve-all position-relative xs-padding-five-all">
-                            <i
-                                class="icon-shield icon-extra-medium text-primary margin-25px-bottom margin-25px-top sm-margin-15px-bottom"></i>
-                            <div
-                                class="alt-font text-extra-dark-gray margin-10px-bottom sm-margin-5px-bottom font-weight-600">
-                                Estrutura</div>
-                            <p>Sólida capacidade econômica financeira.</p>
-                        </div>
-                    </div>
-                    <!-- end feature box item -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end parallax with feature box section -->
-    <!-- start feature box -->
-    <section class="wow fadeIn bg-light-gray wow fadeIn">
-        <div class="container margin-six-top md-margin-ten-top sm-no-margin-top">
-            <div class="row">
-                <div class="col-md-4 col-sm-12 col-xs-12 sm-text-center sm-margin-40px-bottom xs-margin-30px-bottom">
-                    <h5 class="text-extra-dark-gray font-weight-600 alt-font no-margin">Atuação em diversos municípios
-                        no estado de São Paulo</h5>
+                    class="col-md-4 col-sm-4 col-xs-12 xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin xs-text-center">
+                    <h6 class="alt-font margin-25px-bottom text-uppercase text-dark-blue">Missão</h6>
+                    <p class="width-95 sm-width-100">Disponibilizar os melhores serviços do mercado garantindo qualidade
+                        excelente e quebrando paradigmas para a construção de um país com novos padrões de atendimento à
+                        população.</p>
                 </div>
                 <!-- end feature box item -->
                 <!-- start feature box item -->
-                <div class="col-md-4 col-sm-6 col-xs-12 sm-text-center xs-margin-30px-bottom wow fadeIn last-paragraph-no-margin"
-                    data-wow-delay="0.2s">
-                    <div class="col-md-3 text-center xs-no-padding-lr">
-                        <h2
-                            class="text-dark-blue alt-font letter-spacing-minus-3 no-margin-bottom sm-margin-10px-bottom">
-                            25</h2>
-                    </div>
-                    <div class="col-md-9 margin-5px-top sm-text-center xs-no-padding-lr">
-                        <span
-                            class="alt-font text-medium text-extra-dark-gray margin-5px-bottom display-block">Municípios</span>
-                        <p class="width-80 md-width-100">Lorem Ipsum is simply text the printing and typesetting
-                            standard industry.</p>
-                    </div>
+                <div
+                    class="col-md-4 col-sm-4 col-xs-12 xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin xs-text-center">
+                    <h6 class="alt-font margin-25px-bottom text-uppercase text-dark-blue">Visão</h6>
+                    <p class="width-95 sm-width-100">Ser uma das 5 maiores empresas de prestação de serviços do Brasil
+                        no setor de transporte de passageiros.</p>
                 </div>
                 <!-- end feature box item -->
                 <!-- start feature box item -->
-                <div class="col-md-4 col-sm-6 col-xs-12 sm-text-center wow fadeIn last-paragraph-no-margin"
-                    data-wow-delay="0.4s">
-                    <div class="col-md-3 text-center xs-no-padding-lr">
-                        <h2
-                            class="text-dark-blue alt-font letter-spacing-minus-3 no-margin-bottom sm-margin-10px-bottom">
-                            55</h2>
-                    </div>
-                    <div class="col-md-9 margin-5px-top sm-text-center xs-no-padding-lr">
-                        <span
-                            class="alt-font text-medium text-extra-dark-gray margin-5px-bottom display-block">Frotas</span>
-                        <p class="width-80 md-width-100">Lorem Ipsum is simply text the printing and typesetting
-                            standard industry.</p>
-                    </div>
+                <div
+                    class="col-md-4 col-sm-4 col-xs-12 xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin xs-text-center">
+                    <h6 class="alt-font margin-25px-bottom text-uppercase text-dark-blue">Valores</h6>
+                    <p class="width-95 sm-width-100">Acreditamos que nossa principal responsabilidade é com a população,
+                        que paga seus impostos com trabalho duro e dedicação e merece receber em troca serviços de
+                        qualidade excelente.<br>
+                        Nossos colaboradores devem trabalhar motivados, com ofertas de oportunidades desafiadoras,
+                        atingindo metas além das quais se julgam capazes de alcançar e serem recompensados de maneira
+                        totalmente meritocrática com base em critérios objetivos e justos.</p>
                 </div>
                 <!-- end feature box item -->
             </div>
         </div>
     </section>
-    <!-- end feature box section -->
-    <!-- start services section -->
-    <section class="wow fadeIn">
-        <div class="container position-relative">
-            <div class="row">
-                <!-- start interactive banners item -->
-                <div class="col-md-3 col-sm-6 col-xs-12 xs-margin-30px-bottom wow fadeInUp">
-                    <div class="feature-box-16 xs-width-100">
-                        <img src="img/service_1.jpg" alt="">
-                        <div class="feature-box-content text-center">
-                            <div class="opacity-full-dark bg-extra-dark-gray"></div>
-                            <div class="display-table height-100 width-100 position-relative">
-                                <div class="vertical-align-middle display-table-cell padding-15px-lr padding-20px-tb">
-                                    <div class="text-white alt-font text-medium margin-15px-bottom">Transporte Escolar
-                                    </div>
-                                    <p class="width-85 center-col text-extra-light-gray">Lorem Ipsum is simply dummy
-                                        text of the printing and typesetting industry. Lorem Ipsum has been the
-                                        industry's standard dummy text ever since.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end interactive banners item -->
-                <!-- start interactive banners item -->
-                <div class="col-md-3 col-sm-6 col-xs-12 xs-margin-30px-bottom wow fadeInUp" data-wow-delay="0.25s">
-                    <div class="feature-box-16 xs-width-100">
-                        <img src="img/service_2.jpg" alt="">
-                        <div class="feature-box-content text-center text-white">
-                            <div class="opacity-full-dark bg-extra-dark-gray"></div>
-                            <div class="display-table height-100 width-100 position-relative">
-                                <div class="vertical-align-middle display-table-cell padding-15px-lr padding-20px-tb">
-                                    <div class="text-white alt-font text-medium margin-15px-bottom">Transporte Coletivo
-                                        de Passageiros</div>
-                                    <p class="width-85 center-col text-extra-light-gray">Lorem Ipsum is simply dummy
-                                        text of the printing and typesetting industry. Lorem Ipsum has been the
-                                        industry's standard dummy text ever since.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end interactive banners item -->
-                <!-- start interactive banners item -->
-                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="feature-box-16 xs-width-100">
-                        <img src="img/service_3.jpg" alt="">
-                        <div class="feature-box-content text-center text-white">
-                            <div class="opacity-full-dark bg-extra-dark-gray"></div>
-                            <div class="display-table height-100 width-100 position-relative">
-                                <div class="vertical-align-middle display-table-cell padding-15px-lr padding-20px-tb">
-                                    <div class="text-white alt-font text-medium margin-15px-bottom">Locação de veículos
-                                        leves, máquinas e equipamentos</div>
-                                    <p class="width-85 center-col text-extra-light-gray">Lorem Ipsum is simply dummy
-                                        text of the printing and typesetting industry. Lorem Ipsum has been the
-                                        industry's standard dummy text ever since.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end interactive banners item -->
-                <!-- start interactive banners item -->
-                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="feature-box-16 xs-width-100">
-                        <img src="img/service_4.jpg" alt="">
-                        <div class="feature-box-content text-center text-white">
-                            <div class="opacity-full-dark bg-extra-dark-gray"></div>
-                            <div class="display-table height-100 width-100 position-relative">
-                                <div class="vertical-align-middle display-table-cell padding-15px-lr padding-20px-tb">
-                                    <div class="text-white alt-font text-medium margin-15px-bottom">Manutenção, reforma,
-                                        ampliação, adequação civil e predial</div>
-                                    <p class="width-85 center-col text-extra-light-gray">Lorem Ipsum is simply dummy
-                                        text of the printing and typesetting industry. Lorem Ipsum has been the
-                                        industry's standard dummy text ever since.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end interactive banners item -->
-            </div>
-        </div>
-    </section>
-    <!-- start services section -->
-    <!-- start portfolio section -->
-    <section class="wow fadeIn border-bottom border-color-extra-light-gray no-padding-bottom" id="portfolio">
-        <div class="container-fluid">
+    <!-- QUEM SOMOS -->
+
+    <!-- NOTICIAS -->
+    <section id="noticias" class="bg-light-gray wow fadeIn" id="noticias">
+        <div class="container">
             <div class="row text-center">
                 <div class="col-md-12">
-                    <p class="alt-font text-medium-gray margin-5px-bottom text-uppercase text-small">Companhias</p>
-                    <h5
-                        class="text-uppercase alt-font text-extra-dark-gray margin-20px-bottom font-weight-700 sm-width-100 xs-width-100">
-                        Portfólio</h5>
-                    <span
-                        class="separator-line-horrizontal-medium-light2 bg-primary display-table margin-auto width-100px"></span>
+                    <h5 class="alt-font margin-25px-bottom text-uppercase text-dark-blue">Notícias e Informações</h5>
+                    <p class="text-uppercase alt-font margin-20px-bottom font-weight-700 sm-width-100 xs-width-100">
+                        Reportagens, Informações e conteudos para você ficar ligado.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="bg-dark-blue border-radius-10">
+                    <div class="text-center">
+                        <a class="twitter-timeline" data-dnt="true" data-chrome="transparent" data-link-color="#ffcc00"
+                            data-height="600" data-theme="dark" data-link-color="#fedd04"
+                            href="https://twitter.com/ComEmbu?ref_src=twsrc%5Etfw">Últimas notícias</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- NOTICIAS -->
+
+    <!-- PORTFOLIO -->
+    <section class="wow fadeIn border-bottom border-color-extra-light-gray" id="portfolio">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h5 class="alt-font margin-25px-bottom text-uppercase text-dark-blue">Portfólio</h5>
+                    <p class="text-uppercase alt-font margin-20px-bottom font-weight-700 sm-width-100 xs-width-100">
+                        Atuação em diversos contratos do estado e município de São Paulo.</p>
                 </div>
             </div>
             <div class="row">
                 <div
-                    class="filter-content overflow-hidden margin-100px-top sm-margin-70px-top xs-margin-50px-top xs-margin-15px-lr">
+                    class="filter-content overflow-hidden margin-50px-top sm-margin-70px-top xs-margin-50px-top xs-margin-15px-lr">
                     <ul class="portfolio-grid work-4col gutter-large hover-option6 lightbox-portfolio">
                         <li class="grid-sizer"></li>
+
                         <!-- start portfolio item -->
                         <li class="grid-item wow fadeInUp last-paragraph-no-margin">
                             <figure>
-                                <div class="portfolio-img bg-primary position-relative text-center overflow-hidden">
+                                <div class="portfolio-img position-relative text-center overflow-hidden">
+                                    <span
+                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Coletivo
+                                        - Embu das Artes</span>
                                     <img src="img/com.png" alt="" />
-                                    <div class="portfolio-icon">
-                                        <a href="#"><i class="fas fa-link text-extra-dark-gray"
-                                                aria-hidden="true"></i></a>
-                                        <a class="gallery-link" title="Lightbox gallery image title..." href="#"><i
-                                                class="fas fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
-                                    </div>
                                 </div>
-                                <figcaption class="bg-white">
-                                    <div class="portfolio-hover-main text-center">
-                                        <div class="portfolio-hover-box vertical-align-middle">
-                                            <div class="portfolio-hover-content position-relative">
-                                                <a href="#"><span
-                                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Embu
-                                                        das Artes</span></a>
-                                                <p class="text-medium-gray text-extra-small text-uppercase">COM</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                            <figure>
-                                <div class="portfolio-img bg-primary position-relative text-center overflow-hidden">
-                                    <img src="img/com.png" alt="" />
-                                    <div class="portfolio-icon">
-                                        <a href="#"><i class="fas fa-link text-extra-dark-gray"
-                                                aria-hidden="true"></i></a>
-                                        <a class="gallery-link" title="Lightbox gallery image title..." href="#"><i
-                                                class="fas fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                                <figcaption class="bg-white">
-                                    <div class="portfolio-hover-main text-center">
-                                        <div class="portfolio-hover-box vertical-align-middle">
-                                            <div class="portfolio-hover-content position-relative">
-                                                <a href="#"><span
-                                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Embu
-                                                        das Artes</span></a>
-                                                <p class="text-medium-gray text-extra-small text-uppercase">COM</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-                            <figure>
-                                <div class="portfolio-img bg-primary position-relative text-center overflow-hidden">
-                                    <img src="img/com.png" alt="" />
-                                    <div class="portfolio-icon">
-                                        <a href="#"><i class="fas fa-link text-extra-dark-gray"
-                                                aria-hidden="true"></i></a>
-                                        <a class="gallery-link" title="Lightbox gallery image title..." href="#"><i
-                                                class="fas fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                                <figcaption class="bg-white">
-                                    <div class="portfolio-hover-main text-center">
-                                        <div class="portfolio-hover-box vertical-align-middle">
-                                            <div class="portfolio-hover-content position-relative">
-                                                <a href="#"><span
-                                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Embu
-                                                        das Artes</span></a>
-                                                <p class="text-medium-gray text-extra-small text-uppercase">COM</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
-                            <figure>
-                                <div class="portfolio-img bg-primary position-relative text-center overflow-hidden">
-                                    <img src="img/com.png" alt="" />
-                                    <div class="portfolio-icon">
-                                        <a href="#"><i class="fas fa-link text-extra-dark-gray"
-                                                aria-hidden="true"></i></a>
-                                        <a class="gallery-link" title="Lightbox gallery image title..." href="#"><i
-                                                class="fas fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
-                                    </div>
-                                </div>
-                                <figcaption class="bg-white">
-                                    <div class="portfolio-hover-main text-center">
-                                        <div class="portfolio-hover-box vertical-align-middle">
-                                            <div class="portfolio-hover-content position-relative">
-                                                <a href="#"><span
-                                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Embu
-                                                        das Artes</span></a>
-                                                <p class="text-medium-gray text-extra-small text-uppercase">COM</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figcaption>
                             </figure>
                         </li>
                         <!-- end portfolio item -->
                         <!-- start portfolio item -->
                         <li class="grid-item wow fadeInUp last-paragraph-no-margin">
                             <figure>
-                                <div class="portfolio-img bg-primary position-relative text-center overflow-hidden">
+                                <div class="portfolio-img position-relative text-center overflow-hidden">
+                                    <span
+                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Coletivo
+                                        - Orlândia</span>
                                     <img src="img/com.png" alt="" />
-                                    <div class="portfolio-icon">
-                                        <a href="#"><i class="fas fa-link text-extra-dark-gray"
-                                                aria-hidden="true"></i></a>
-                                        <a class="gallery-link" title="Lightbox gallery image title..." href="#"><i
-                                                class="fas fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
-                                    </div>
                                 </div>
-                                <figcaption class="bg-white">
-                                    <div class="portfolio-hover-main text-center">
-                                        <div class="portfolio-hover-box vertical-align-middle">
-                                            <div class="portfolio-hover-content position-relative">
-                                                <a href="#"><span
-                                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Embu
-                                                        das Artes</span></a>
-                                                <p class="text-medium-gray text-extra-small text-uppercase">COM</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figcaption>
                             </figure>
                         </li>
                         <!-- end portfolio item -->
                         <!-- start portfolio item -->
-                        <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
+                        <li class="grid-item wow fadeInUp last-paragraph-no-margin">
                             <figure>
-                                <div class="portfolio-img bg-primary position-relative text-center overflow-hidden">
+                                <div class="portfolio-img position-relative text-center overflow-hidden">
+                                    <span
+                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Escolar
+                                        - Barueri</span>
                                     <img src="img/com.png" alt="" />
-                                    <div class="portfolio-icon">
-                                        <a href="#"><i class="fas fa-link text-extra-dark-gray"
-                                                aria-hidden="true"></i></a>
-                                        <a class="gallery-link" title="Lightbox gallery image title..." href="#"><i
-                                                class="fas fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
-                                    </div>
                                 </div>
-                                <figcaption class="bg-white">
-                                    <div class="portfolio-hover-main text-center">
-                                        <div class="portfolio-hover-box vertical-align-middle">
-                                            <div class="portfolio-hover-content position-relative">
-                                                <a href="#"><span
-                                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Embu
-                                                        das Artes</span></a>
-                                                <p class="text-medium-gray text-extra-small text-uppercase">COM</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figcaption>
                             </figure>
                         </li>
                         <!-- end portfolio item -->
                         <!-- start portfolio item -->
-                        <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
+                        <li class="grid-item wow fadeInUp last-paragraph-no-margin">
                             <figure>
-                                <div class="portfolio-img bg-primary position-relative text-center overflow-hidden">
+                                <div class="portfolio-img position-relative text-center overflow-hidden">
+                                    <span
+                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Escolar
+                                        - Itapecerica da Serra</span>
                                     <img src="img/com.png" alt="" />
-                                    <div class="portfolio-icon">
-                                        <a href="#"><i class="fas fa-link text-extra-dark-gray"
-                                                aria-hidden="true"></i></a>
-                                        <a class="gallery-link" title="Lightbox gallery image title..." href="#"><i
-                                                class="fas fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
-                                    </div>
                                 </div>
-                                <figcaption class="bg-white">
-                                    <div class="portfolio-hover-main text-center">
-                                        <div class="portfolio-hover-box vertical-align-middle">
-                                            <div class="portfolio-hover-content position-relative">
-                                                <a href="#"><span
-                                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Embu
-                                                        das Artes</span></a>
-                                                <p class="text-medium-gray text-extra-small text-uppercase">COM</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figcaption>
                             </figure>
                         </li>
                         <!-- end portfolio item -->
                         <!-- start portfolio item -->
-                        <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
+                        <li class="grid-item wow fadeInUp last-paragraph-no-margin">
                             <figure>
-                                <div class="portfolio-img bg-primary position-relative text-center overflow-hidden">
+                                <div class="portfolio-img position-relative text-center overflow-hidden">
+                                    <span
+                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Escolar
+                                        - Embu das Artes</span>
                                     <img src="img/com.png" alt="" />
-                                    <div class="portfolio-icon">
-                                        <a href="#"><i class="fas fa-link text-extra-dark-gray"
-                                                aria-hidden="true"></i></a>
-                                        <a class="gallery-link" title="Lightbox gallery image title..." href="#"><i
-                                                class="fas fa-search text-extra-dark-gray" aria-hidden="true"></i></a>
-                                    </div>
                                 </div>
-                                <figcaption class="bg-white">
-                                    <div class="portfolio-hover-main text-center">
-                                        <div class="portfolio-hover-box vertical-align-middle">
-                                            <div class="portfolio-hover-content position-relative">
-                                                <a href="#"><span
-                                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Embu
-                                                        das Artes</span></a>
-                                                <p class="text-medium-gray text-extra-small text-uppercase">COM</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </figcaption>
+                            </figure>
+                        </li>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <li class="grid-item wow fadeInUp last-paragraph-no-margin">
+                            <figure>
+                                <div class="portfolio-img position-relative text-center overflow-hidden">
+                                    <span
+                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Escolar
+                                        - Osasco</span>
+                                    <img src="img/com.png" alt="" />
+                                </div>
+                            </figure>
+                        </li>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <li class="grid-item wow fadeInUp last-paragraph-no-margin">
+                            <figure>
+                                <div class="portfolio-img position-relative text-center overflow-hidden">
+                                    <span
+                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Escolar
+                                        - Bragança Paulista</span>
+                                    <img src="img/com.png" alt="" />
+                                </div>
+                            </figure>
+                        </li>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <li class="grid-item wow fadeInUp last-paragraph-no-margin">
+                            <figure>
+                                <div class="portfolio-img position-relative text-center overflow-hidden">
+                                    <span
+                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Escolar
+                                        - D.E. Osasco</span>
+                                    <img src="img/com.png" alt="" />
+                                </div>
+                            </figure>
+                        </li>
+                        <!-- end portfolio item -->
+                        <!-- start portfolio item -->
+                        <li class="grid-item wow fadeInUp last-paragraph-no-margin">
+                            <figure>
+                                <div class="portfolio-img position-relative text-center overflow-hidden">
+                                    <span
+                                        class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Monitoramento
+                                        - Itapecerica da Serra</span>
+                                    <img src="img/com.png" alt="" />
+                                </div>
                             </figure>
                         </li>
                         <!-- end portfolio item -->
@@ -657,199 +351,93 @@
             </div>
         </div>
     </section>
-    <!-- end portfolio section -->
-    <!-- start testimonials section -->
-    <section class="wow fadeIn animated bg-light-gray display-none">
+    <!-- PORTFOLIO -->
+
+    <!-- ATENDIMENTO -->
+    <section class="bg-light-gray wow fadeIn" id="atendimento">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <p class="alt-font text-medium-gray margin-5px-bottom text-uppercase text-small">what people says
-                    </p>
-                    <h5
-                        class="text-uppercase alt-font text-extra-dark-gray margin-20px-bottom font-weight-700 sm-width-100 xs-width-100">
-                        Testimonials</h5>
-                    <span
-                        class="separator-line-horrizontal-medium-light2 bg-primary display-table margin-auto width-100px"></span>
-                </div>
-            </div>
             <div class="row">
                 <div
-                    class=" margin-100px-top sm-margin-70px-top sm-width-60 sm-center-col xs-width-100 xs-margin-50px-top">
-                    <div class="col-md-4 sm-margin-two-bottom wow fadeIn last-paragraph-no-margin testimonial-style3">
-                        <div
-                            class="testimonial-content-box padding-twelve-all bg-white border-radius-6 box-shadow arrow-bottom sm-padding-eight-all">
-                            I wanted to hire the best and after looking at several other companies, I knew Jacob was the
-                            perfect guy for the job. He is a true professional.
-                        </div>
-                        <!-- start testimonials item -->
-                        <div class="testimonial-box padding-25px-all xs-padding-20px-all">
-                            <div class="image-box width-20"><img src="images/avtar-14.jpg" class="border-radius-100"
-                                    alt=""></div>
-                            <div class="name-box padding-20px-left">
-                                <div class="alt-font font-weight-600 text-small text-uppercase text-extra-dark-gray">
-                                    Shoko Mugikura</div>
-                                <p class="text-extra-small text-uppercase text-medium-gray">Graphic Designer</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end testimonials item -->
-                    <!-- start testimonials item -->
-                    <div class="col-md-4 sm-margin-two-bottom wow fadeIn last-paragraph-no-margin testimonial-style3"
-                        data-wow-delay="0.2s">
-                        <div
-                            class="testimonial-content-box padding-twelve-all bg-white border-radius-6 box-shadow arrow-bottom sm-padding-eight-all">
-                            This is an excellent company! I personally enjoyed the energy and the professional support
-                            the whole team gave to us into creating website.
-                        </div>
-                        <div class="testimonial-box padding-25px-all xs-padding-20px-all">
-                            <div class="image-box width-20"><img src="images/avtar-15.jpg" class="border-radius-100"
-                                    alt=""></div>
-                            <div class="name-box padding-20px-left">
-                                <div class="alt-font font-weight-600 text-small text-uppercase text-extra-dark-gray">
-                                    Alexander Harvard</div>
-                                <p class="text-extra-small text-uppercase text-medium-gray">Creative Director</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end testimonials item -->
-                    <!-- start testimonials item -->
-                    <div class="col-md-4 wow fadeIn last-paragraph-no-margin testimonial-style3" data-wow-delay="0.4s">
-                        <div
-                            class="testimonial-content-box padding-twelve-all bg-white border-radius-6 box-shadow arrow-bottom sm-padding-eight-all">
-                            Their team are easy to work with and helped me make amazing websites in a short amount of
-                            time. Thanks again guys for all your hard work.
-                        </div>
-                        <div class="testimonial-box padding-25px-all xs-padding-20px-all">
-                            <div class="image-box width-20"><img src="images/avtar-16.jpg" class="border-radius-100"
-                                    alt=""></div>
-                            <div class="name-box padding-20px-left">
-                                <div class="alt-font font-weight-600 text-small text-uppercase text-extra-dark-gray">
-                                    Herman Miller</div>
-                                <p class="text-extra-small text-uppercase text-medium-gray">Co Founder / CEO</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end testimonials item -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end testimonial section  -->
-    <!-- start blog section -->
-    <section id="noticias" class="bg-light-gray wow fadeIn">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center margin-100px-bottom sm-margin-70px-bottom xs-margin-50px-bottom">
-                    <p class="alt-font margin-5px-bottom text-uppercase text-medium-gray text-small">Acompanhe as
-                        novidades</p>
-                    <h5
-                        class="text-uppercase alt-font text-extra-dark-gray margin-20px-bottom font-weight-700 sm-width-100 xs-width-100">
-                        Notícias e Informações</h5>
-                    <span
-                        class="separator-line-horrizontal-medium-light2 bg-primary display-table margin-auto width-100px"></span>
+                    class="col-lg-6 col-md-6 col-sm-8 col-xs-12 center-col margin-30px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center last-paragraph-no-margin">
+                    <h5 class="linotype-font alt-font font-weight-700 text-dark-blue text-uppercase">Atendimento</h5>
+                    <p>Reclamações, elogios ou sugestões</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 no-padding xs-padding-15px-lr">
-                    <ul class="blog-grid blog-3col gutter-large blog-post-style5">
-                        <li class="grid-sizer"></li>
-                        <!-- start blog post item -->
-                        <li class="grid-item wow fadeInUp last-paragraph-no-margin">
-                            <div class="blog-post bg-white">
-                                <div class="blog-post-images overflow-hidden">
-                                    <a href="#">
-                                        <img src="img/bg3.jpg" alt="">
-                                    </a>
-                                    <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a
-                                            href="#">Lorem Ipsum</a></div>
-                                </div>
-                                <div
-                                    class="post-details inner-match-height padding-40px-all sm-padding-20px-all xs-padding-30px-tb">
-                                    <div class="blog-hover-color"></div>
-                                    <a href="#"
-                                        class="alt-font post-title text-medium text-extra-dark-gray display-block md-width-100 margin-5px-bottom">Lorem
-                                        ipsum dolor sit amet consectetur adipisicing elit</a>
-                                    <div class="author">
-                                        <span
-                                            class="text-medium-gray text-uppercase text-extra-small display-inline-block">by
-                                            <a href="#" class="text-medium-gray">Wigoo
-                                                Digital</a>&nbsp;&nbsp;|&nbsp;&nbsp;20 de Abril de 2019</span>
-                                    </div>
-                                    <div class="separator-line-horrizontal-full bg-medium-gray margin-20px-tb"></div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum standard dummy...</p>
-                                </div>
+                <!-- start contact info item -->
+                <div
+                    class="col-md-6 col-sm-12 col-xs-12 text-center sm-margin-eight-bottom xs-margin-30px-bottom wow last-paragraph-no-margin">
+                    <div class="display-inline-block margin-20px-bottom">
+                        <div class="bg-blue icon-round-medium"><i class="icon-chat icon-medium text-white"></i></div>
+                    </div>
+                    <div class="text-dark-blue text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">SAC
+                    </div>
+                    <p class="center-col">0800 591 5067</p>
+
+                </div>
+                <!-- end contact info item -->
+                <!-- start contact info item -->
+                <div
+                    class="col-md-6 col-sm-12 col-xs-12 text-center xs-margin-30px-bottom wow last-paragraph-no-margin">
+                    <div class="display-inline-block margin-20px-bottom">
+                        <div class="bg-blue icon-round-medium"><i class="icon-envelope icon-medium text-white"></i>
+                        </div>
+                    </div>
+                    <div class="text-dark-blue text-uppercase text-small font-weight-600 alt-font margin-5px-bottom">
+                        E-mail</div>
+                    <p class="center-col"><a
+                            href="mailto:comembu@jtptransportes.com.br">comembu@jtptransportes.com.br</a></p>
+                </div>
+                <!-- end contact info item -->
+            </div>
+            <div class="row margin-30px-top">
+                <div class="col-md-12">
+                    <form id="form-contact" action="javascript:void(0)" method="post">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="success-project-contact-form" class="no-margin-lr"></div>
                             </div>
-                        </li>
-                        <!-- end blog post item -->
-                        <!-- start blog post item -->
-                        <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                            <!-- start blog item -->
-                            <div class="blog-post bg-white">
-                                <div class="blog-post-images overflow-hidden">
-                                    <a href="#">
-                                        <img src="img/bg3.jpg" alt="">
-                                    </a>
-                                    <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a
-                                            href="#">Lorem Ipsum</a></div>
-                                </div>
-                                <div
-                                    class="post-details inner-match-height padding-40px-all sm-padding-20px-all xs-padding-30px-tb">
-                                    <div class="blog-hover-color"></div>
-                                    <a href="#"
-                                        class="alt-font post-title text-medium text-extra-dark-gray display-block md-width-100 margin-5px-bottom">Lorem
-                                        ipsum dolor sit amet consectetur adipisicing elit</a>
-                                    <div class="author">
-                                        <span
-                                            class="text-medium-gray text-uppercase text-extra-small display-inline-block">by
-                                            <a href="#" class="text-medium-gray">Wigoo
-                                                Digital</a>&nbsp;&nbsp;|&nbsp;&nbsp;20 de Abril de 2019</span>
-                                    </div>
-                                    <div class="separator-line-horrizontal-full bg-medium-gray margin-20px-tb"></div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum standard dummy...</p>
-                                </div>
+                            <div class="col-md-6">
+                                <input type="text" name="name" id="name" placeholder="Nome Completo *"
+                                    class="big-input">
                             </div>
-                            <!-- end blog item -->
-                        </li>
-                        <!-- end blog post item -->
-                        <!-- start blog post item -->
-                        <li class="grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-                            <div class="blog-post bg-white">
-                                <div class="blog-post-images overflow-hidden">
-                                    <a href="#">
-                                        <img src="img/bg3.jpg" alt="">
-                                    </a>
-                                    <div class="blog-categories bg-white text-uppercase text-extra-small alt-font"><a
-                                            href="#">Lorem Ipsum</a></div>
-                                </div>
-                                <div
-                                    class="post-details inner-match-height padding-40px-all sm-padding-20px-all xs-padding-30px-tb">
-                                    <div class="blog-hover-color"></div>
-                                    <a href="#"
-                                        class="alt-font post-title text-medium text-extra-dark-gray display-block md-width-100 margin-5px-bottom">I
-                                        like the body. I like to design everything to do with the body.</a>
-                                    <div class="author">
-                                        <span
-                                            class="text-medium-gray text-uppercase text-extra-small display-inline-block">by
-                                            <a href="#" class="text-medium-gray">Wigoo
-                                                Digital</a>&nbsp;&nbsp;|&nbsp;&nbsp;20 de Abril de 2019</span>
-                                    </div>
-                                    <div class="separator-line-horrizontal-full bg-medium-gray margin-20px-tb"></div>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum standard dummy...</p>
-                                </div>
+                            <div class="col-md-6">
+                                <input type="text" name="phone" id="phone" placeholder="Telefone"
+                                    class="big-input mask-phone">
                             </div>
-                        </li>
-                        <!-- end blog post item -->
-                    </ul>
+                            <div class="col-md-6">
+                                <input type="text" name="cellphone" id="cellphone" placeholder="Celular*"
+                                    class="big-input mask-cellphone">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="email" id="email" placeholder="E-mail *" class="big-input">
+                            </div>
+                            <div class="col-md-6" style="height: 0;">
+                                <input type="text" name="typeForm" id="typeForm" class="big-input"
+                                    style="visibility: hidden">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="message" id="message" placeholder="Digite a sua mensagem" rows="6"
+                                    class="big-textarea"></textarea>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button id="btn-form-contact" type="submit"
+                                    class="btn btn-rounded btn-transparent-primary btn-large margin-20px-top">enviar
+                                    mensagem</button>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- Ajax response -->
+                    <div id="contact-response" class="ajax-response font-alt"></div>
                 </div>
             </div>
+
         </div>
     </section>
-    <!-- end blog section -->
+    <!-- ATENDIMENTO -->
+
     <!-- start footer -->
-    <footer class="footer-clean-dark bg-extra-dark-gray padding-five-tb xs-padding-30px-tb">
+    <footer class="bg-dark-blue bg-extra-dark-gray padding-five-tb xs-padding-30px-tb">
         <div class="footer-widget-area padding-30px-bottom">
             <div class="container">
                 <div class="row">
@@ -929,6 +517,7 @@
         </div>
     </footer>
     <!-- end footer -->
+
     <!-- start scroll to top -->
     <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
     <!-- end scroll to top -->
