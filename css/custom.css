@@ -34,15 +34,13 @@ header a.logo img { max-height: 100px; }
 
 .text-secondary { color: #c9a400; }
 
-.text-25px{ font-size: 25px; }
+.text-25px { font-size: 25px; }
+.text-logo-large { font-size: 30px; }
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
-.navbar-default, .bg-dark-blue { background-color: #0f243e; }
-.bg-blue { background-color: #000042; }
-
-/* .timeline-Widget { background-color: #0f243e!important; } */
-
+.navbar-default, .bg-blue { background-color: #000042; }
+.bg-dark-blue { background-color: #0f243e; }
 
 .twitter-timeline {
     max-width: 100%;
